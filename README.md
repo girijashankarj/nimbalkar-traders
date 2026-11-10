@@ -26,3 +26,7 @@ Marathi-first responsive business website for Nimbalkar Traders, serving Pune an
 - Confirm contact number and email are monitored
 
 The product list and artwork are illustrative. Replace illustrations with actual product/packaging photographs when available.
+
+## Deployment trigger
+
+This README update triggers the GitHub Pages workflow on the `main` branch. Check the latest run under Actions; a successful run publishes the site to GitHub Pages.
