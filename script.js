@@ -53,3 +53,7 @@ renderCatalog();
 
 // Refresh catalogue labels and product cards when the visitor changes language.
 document.querySelectorAll("[data-lang]").forEach(button=>button.addEventListener("click",()=>renderCatalog()));
+
+// Graceful image fallback: hide unavailable photography and show the section background instead of broken-image icons.
+document.querySelectorAll("img").forEach((img)=>{img.addEventListener("error",()=>{img.classList.add("image-unavailable");img.removeAttribute("src");img.setAttribute("aria-label",img.alt+" (image currently unavailable)");},{once:true});});
+if(window.lucide)window.lucide.createIcons();
