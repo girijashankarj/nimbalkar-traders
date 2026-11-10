@@ -1,19 +1,28 @@
 # निंबाळकर ट्रेडर्स
 
-Marathi-first responsive digital portfolio for Nimbalkar Traders, Pimpri-Chinchwad.
+Marathi-first responsive business website for Nimbalkar Traders, serving Pune and Pimpri-Chinchwad.
 
 ## Features
-- Marathi-first business website
-- Homemade masale, papad, chakli/faral and anarsa peeth categories
-- WhatsApp enquiry form (no backend required)
+- Custom Marathi-English spice brand logo in SVG (assets/logo.svg)
+- Favicon, responsive website and Marathi-first content
+- Homemade masale, papad, chakli/faral and anarsa peeth catalogue
+- Retail and bulk-order enquiry
+- Free home delivery after the minimum order value is met
+- Third-party delivery partner / portal option, subject to service availability and pin code
+- WhatsApp, Instagram and Gmail order contact options
 - Google Maps listing and review QR
-- Instagram, phone and email contact links
-- Original vector illustrations for spices and traditional foods
+- GitHub Actions deployment workflow for GitHub Pages
 
-## Publish with GitHub Pages
+## Publish
 1. Open **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select `main` and `/ (root)`, then Save.
-4. Wait for the Pages URL to appear in Settings → Pages.
+2. Under **Build and deployment → Source**, select **GitHub Actions**.
+3. Save. The workflow in `.github/workflows/pages.yml` deploys on every push to `main`.
+4. Monitor **Actions → Deploy static website to GitHub Pages**. When successful, GitHub displays the live URL under **Settings → Pages**.
 
-The product list is a sample. Confirm availability and pricing with the business before publishing.
+## Business details to confirm before public launch
+- Minimum order value for free home delivery
+- Serviceable pin codes and third-party delivery rates
+- Current product availability, pack sizes and pricing
+- Confirm contact number and email are monitored
+
+The product list and artwork are illustrative. Replace illustrations with actual product/packaging photographs when available.
