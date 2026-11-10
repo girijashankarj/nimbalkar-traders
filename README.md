@@ -2,6 +2,10 @@
 
 Marathi-first responsive business website for Nimbalkar Traders, serving Pune and Pimpri-Chinchwad.
 
+## Live demo
+
+**Website:** https://girijashankarj.github.io/nimbalkar-traders/
+
 ## Features
 - Custom Marathi-English spice brand logo in SVG (assets/logo.svg)
 - Favicon, responsive website and Marathi-first content
@@ -17,7 +21,7 @@ Marathi-first responsive business website for Nimbalkar Traders, serving Pune an
 1. Open **Settings → Pages**.
 2. Under **Build and deployment → Source**, select **GitHub Actions**.
 3. Save. The workflow in `.github/workflows/pages.yml` deploys on every push to `main`.
-4. Monitor **Actions → Deploy static website to GitHub Pages**. When successful, GitHub displays the live URL under **Settings → Pages**.
+4. Monitor **Actions → Deploy static website to GitHub Pages**. The published site is available at the Live demo URL above once the deployment run succeeds.
 
 ## Business details to confirm before public launch
 - Minimum order value for free home delivery
