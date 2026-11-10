@@ -13,7 +13,6 @@ function setLanguage(lang){
  document.title=lang==="en"?"Nimbalkar Traders | Homemade Taste, Traditional Trust":"निंबाळकर ट्रेडर्स | घरगुती चव, पारंपरिक विश्वास";
  document.querySelector('meta[name="description"]').content=lang==="en"?"Nimbalkar Traders: masalas, papad, chakli and traditional faral across Pune and Pimpri-Chinchwad. Retail and wholesale orders welcome.":"निंबाळकर ट्रेडर्स: पुणे आणि पिंपरी-चिंचवडमध्ये घरगुती मसाले, पापड, चकली आणि पारंपरिक फराळ.";
  try{localStorage.setItem("nt-language",lang);}catch(e){}
- renderCatalog();
 }
 document.querySelectorAll("[data-lang]").forEach(b=>b.addEventListener("click",()=>setLanguage(b.dataset.lang)));
 let saved="mr";try{saved=localStorage.getItem("nt-language")||"mr";}catch(e){}setLanguage(saved==="en"?"en":"mr");
@@ -48,3 +47,6 @@ if(window.lucide)window.lucide.createIcons();
 document.querySelector("#catalogSearch")?.addEventListener("input",e=>{catalogQuery=e.target.value;renderCatalog();});
 document.querySelector("#catalogFilters")?.addEventListener("click",e=>{const btn=e.target.closest("[data-filter]");if(!btn)return;activeCatalogGroup=btn.dataset.filter;renderCatalog();});
 document.querySelectorAll("[data-category-jump]").forEach(btn=>btn.addEventListener("click",()=>{activeCatalogGroup=btn.dataset.categoryJump;renderCatalog();document.querySelector("#products").scrollIntoView({behavior:"smooth"});}));
+
+// Render after catalogue data and handlers are initialised.
+renderCatalog();
