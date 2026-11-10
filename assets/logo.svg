@@ -1,1 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" role="img" aria-labelledby="title desc"><title id="title">Nimbalkar Traders logo</title><desc id="desc">A Marathi inspired spice brand mark with a traditional mortar, pestle, chilli and leaves.</desc><defs><linearGradient id="spice" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9a52c"/><stop offset="1" stop-color="#b84a1d"/></linearGradient><linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#789447"/><stop offset="1" stop-color="#315a35"/></linearGradient></defs><g transform="translate(14 12)"><circle cx="108" cy="108" r="101" fill="#fff4df" stroke="#741f19" stroke-width="8"/><circle cx="108" cy="108" r="90" fill="none" stroke="#d99b2b" stroke-width="3" stroke-dasharray="3 8"/><path d="M57 130q51-17 102 0l-9 43q-43 20-84 0Z" fill="#741f19" stroke="#d99b2b" stroke-width="5"/><path d="M68 128q40 17 80 0" fill="none" stroke="#ffe3a1" stroke-width="5" stroke-linecap="round"/><path d="M91 121 140 46q5-9 13-3l7 5q7 5 1 12l-47 67" fill="#a75b2a" stroke="#741f19" stroke-width="5" stroke-linejoin="round"/><path d="M93 73q-28-40-51-20 8 32 51 20m23-12q9-39 42-35-1 32-42 35" fill="url(#leaf)" stroke="#315a35" stroke-width="3"/><path d="M72 105q-26-32-44-13 15 28 44 13" fill="#719348"/><path d="M130 104q30-43 51-22-13 35-51 22" fill="#719348"/><path d="M84 145q-23-18-31-5 9 20 31 5m48 0q22-18 31-5-10 20-31 5" fill="#e8a52b"/><path d="M45 91q-12-26 12-38 25-11 44 17-20 30-56 21Z" fill="url(#spice)"/><path d="M51 79q20 4 39-8" fill="none" stroke="#fff0bd" stroke-width="4" stroke-linecap="round"/></g><g transform="translate(235 56)"><text x="0" y="60" fill="#741f19" font-family="Yatra One, Noto Sans Devanagari, sans-serif" font-size="57" font-weight="bold">निंबाळकर</text><text x="3" y="111" fill="#3e241a" font-family="Hind, sans-serif" font-size="36" font-weight="700" letter-spacing="2">TRADERS</text><path d="M4 130h430" stroke="#d99b2b" stroke-width="4" stroke-linecap="round"/><text x="4" y="161" fill="#496337" font-family="Hind, sans-serif" font-size="22" font-weight="600">घरगुती मसाले • पारंपरिक चव</text><text x="4" y="190" fill="#9a5b22" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="4">HOMEMADE MASALE · PUNE</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+<title id="title">Nimbalkar Traders – निंबाळकर ट्रेडर्स</title>
+<desc id="desc">A traditional Indian spice brand emblem with a cream ornamental plaque, deep maroon lettering, golden borders and a red chilli with green leaves.</desc>
+<defs>
+  <linearGradient id="gold" x1="0" y1="0" x2="0.9" y2="1"><stop stop-color="#fff0b7"/><stop offset=".48" stop-color="#d89b2b"/><stop offset="1" stop-color="#a96516"/></linearGradient>
+  <linearGradient id="cream" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fffdf1"/><stop offset="1" stop-color="#f8e9c6"/></linearGradient>
+  <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d92e24"/><stop offset="1" stop-color="#7d1518"/></linearGradient>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<!-- soft shadow -->
+<path d="M450 24 C500 24 525 4 562 23 C590 38 615 30 644 46 C676 63 684 91 716 105 C746 119 751 149 734 177 C750 208 744 235 716 251 C687 268 678 294 647 309 C615 324 588 313 561 334 C527 354 498 337 450 337 C402 337 373 354 339 334 C312 313 285 324 253 309 C222 294 213 268 184 251 C156 235 150 208 166 177 C149 149 154 119 184 105 C216 91 224 63 256 46 C285 30 310 38 338 23 C375 4 400 24 450 24Z" fill="#5b2814" opacity=".2" filter="url(#shadow)" transform="translate(0 12)"/>
+<!-- ornamental plaque -->
+<path d="M450 24 C500 24 525 4 562 23 C590 38 615 30 644 46 C676 63 684 91 716 105 C746 119 751 149 734 177 C750 208 744 235 716 251 C687 268 678 294 647 309 C615 324 588 313 561 334 C527 354 498 337 450 337 C402 337 373 354 339 334 C312 313 285 324 253 309 C222 294 213 268 184 251 C156 235 150 208 166 177 C149 149 154 119 184 105 C216 91 224 63 256 46 C285 30 310 38 338 23 C375 4 400 24 450 24Z" fill="url(#cream)" stroke="#8e4b19" stroke-width="17"/>
+<path d="M450 35 C498 35 524 17 556 34 C583 48 609 42 636 57 C663 72 674 98 703 112 C728 124 733 150 717 177 C731 202 727 228 703 242 C675 258 666 282 638 296 C610 309 585 300 556 319 C524 337 497 326 450 326 C403 326 376 337 344 319 C315 300 290 309 262 296 C234 282 225 258 197 242 C173 228 169 202 183 177 C167 150 172 124 197 112 C226 98 237 72 264 57 C291 42 317 48 344 34 C376 17 402 35 450 35Z" fill="none" stroke="url(#gold)" stroke-width="7"/>
+<!-- chilli and leaves -->
+<g transform="translate(450 83)">
+  <path d="M-5 8 C-41 -15 -63 -38 -57 -55 C-33 -50 -15 -30 -5 8Z" fill="#4f8a39"/>
+  <path d="M2 7 C12 -29 34 -49 59 -46 C55 -22 32 -4 2 7Z" fill="#78a84b"/>
+  <path d="M-3 6 C-10 -27 -2 -55 15 -65 C28 -42 18 -13 -3 6Z" fill="#397a36"/>
+  <path d="M-28 1 C-16 0 -7 -4 1 -14" fill="none" stroke="#b7d58a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M8 2 C25 -7 37 -20 43 -34" fill="none" stroke="#c8df9c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M-41 4 C-31 -8 -17 -13 -2 -8 C13 -2 23 1 39 -4 C34 17 14 31 -7 28 C-24 26 -37 18 -41 4Z" fill="url(#red)" stroke="#8c1b17" stroke-width="3"/>
+  <path d="M-3 -7 Q-1 -19 8 -27 Q10 -12 4 -3" fill="#4f8a39"/>
+  <path d="M-34 6 Q-10 21 20 9" fill="none" stroke="#f38b5a" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+</g>
+<text x="450" y="183" text-anchor="middle" fill="#651b19" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="bold" letter-spacing="-2">Nimbalkar</text>
+<text x="450" y="246" text-anchor="middle" fill="#651b19" font-family="Georgia, 'Times New Roman', serif" font-size="67" font-weight="bold" letter-spacing="1">Traders</text>
+<path d="M235 265H365 M535 265H665" stroke="#9b6825" stroke-width="3" stroke-linecap="round"/>
+<circle cx="450" cy="265" r="4" fill="#b47a23"/>
+<text x="450" y="295" text-anchor="middle" fill="#244b2c" font-family="'Noto Sans Devanagari','Arial',sans-serif" font-size="25" font-weight="700">निंबाळकर ट्रेडर्स</text>
+<text x="450" y="319" text-anchor="middle" fill="#4a3524" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="4">SPICES  •  QUALITY  •  TRUST</text>
+</svg>
